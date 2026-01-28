@@ -27,6 +27,7 @@ interfaces {
     ge-0/0/5 {
         unit 0 {
             family inet {
+                /* .87 have been chosen as to not create conflicts with other routers */
                 address 10.56.16.87/22;
             }
         }
